@@ -1,3 +1,5 @@
+ <!-- on debute la partie des articles -->
+
 ---
 layout: default
 ---
@@ -20,7 +22,7 @@ layout: default
     </article>
   {% endfor %}
 
-  <!-- pagination -->
+  <!-- pagination, le max est 6 ( a verifier) -->
   {% if paginator.total_pages > 1 %}
   <div class="pagination">
     {% if paginator.previous_page %}
